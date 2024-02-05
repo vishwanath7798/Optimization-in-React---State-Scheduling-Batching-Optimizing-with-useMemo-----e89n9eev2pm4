@@ -34,6 +34,8 @@ const Home = () => {
 
   const isArmstrong = useMemo(() => isArmstrongNumber(num1), [num1]);
   const isPrime = useMemo(() => isPrimeNumber(num2), [num2]);
+  // const isArmstrong = isArmstrongNumber(num1);
+  // const isPrime = isPrimeNumber(num2);
   return (
     <div className="App">
       <h2>Armstrong Checker</h2>
@@ -71,3 +73,5 @@ const Home = () => {
 };
 
 export default Home;
+
+
